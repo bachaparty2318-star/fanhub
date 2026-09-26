@@ -1,0 +1,7 @@
+.member-avatar img{width:100%;height:100%;border-radius:inherit;object-fit:cover}
+.member-avatar-upload{display:flex;align-items:center;gap:16px;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--member-line)}
+.member-avatar-upload>img{width:64px;height:64px;border-radius:18px;object-fit:cover;background:var(--member-soft)}
+#memberAvatarForm{display:flex;align-items:end;gap:10px;flex:1}
+#memberAvatarForm label{display:grid;gap:6px;font-size:12px;font-weight:700;flex:1}
+#memberAvatarForm input{font:inherit;font-size:12px}
+@media(max-width:760px){.member-avatar-upload,#memberAvatarForm{display:grid;align-items:start}}

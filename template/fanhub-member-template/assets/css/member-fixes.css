@@ -1,0 +1,6 @@
+.member-quickbar{left:50%!important;right:auto!important;width:max-content;max-width:calc(100vw - 32px);white-space:nowrap;overflow:visible}
+.member-search input{min-width:0!important;border:0!important;box-shadow:none!important}
+.member-modal{visibility:hidden;opacity:0;pointer-events:none;transition:opacity .15s ease}
+.member-modal.open{visibility:visible;opacity:1;pointer-events:auto}
+.member-modal-card{box-shadow:0 30px 90px rgba(0,0,0,.3)}
+@media(max-width:760px){.member-quickbar{max-width:calc(100vw - 16px);gap:4px;padding:7px}.member-quickbar button{width:36px;height:36px}}
